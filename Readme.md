@@ -1,1 +1,3 @@
-## To build a project documentation book from scratch
+## Project documentation book
+
+Purpose - to build project documentation from scratch. 
