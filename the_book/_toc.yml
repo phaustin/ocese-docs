@@ -1,7 +1,6 @@
-# - file: README
-- file: docs/index
-  sections:
-    - file: docs/basics
-    - file: docs/git-etc
-    - file: docs/Jupyter-etc
-    - file: docs/Python-etc
+file: index
+sections:
+- file: basics
+- file: git-etc
+- file: Jupyter-etc
+- file: Python-etc

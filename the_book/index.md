@@ -1,9 +1,12 @@
 # OCESE documentation collection
 
+```{note}
+Note to self: Grow the book based on [Jupyterbook docs](https://jupyterbook.org/intro.html) not someone else's precedent.
+```
 This book will contain concise guidelines for topics listed below and in the menu.
 
 ```{note}
-The intention is lists and concise summaries, not explanations of philosophy.
+The intention is to include lists and concise summaries, not explanations of philosophy.
 ```
 
 Our [website](https://eoas-ubc.github.io/) is a good place for an outline of the project.
