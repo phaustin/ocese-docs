@@ -1,7 +1,7 @@
 # Book settings
 title: OCESE documentation
 author: F. Jones and others
-logo: logo-01sm.png
+logo: images/logo-04smsm.png
 
 latex:
   latex_documents:

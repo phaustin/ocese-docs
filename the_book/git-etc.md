@@ -1,8 +1,6 @@
 # Git and GitHub
 
-![octocat](./images/9919.png)
-
-This will include:
+This chapter will include:
 
 - Git
 - GitHub

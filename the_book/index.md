@@ -1,5 +1,7 @@
 # OCESE documentation collection
 
+This is documentation for the resources and practices being build as part of the **8Opensource Computing for Earth Science Education** project, a large TLEF-funded [project](https://tlef.ubc.ca/funded-proposals/entry/714/?login) in the Department of Earth Ocean and Atmospheric Sciences ([EOAS](https://www.eoas.ubc.ca/)) at University of British Columbia ([UBC](https://www.ubc.ca/))
+
 ```{note}
 Note to self: Grow the book based on [Jupyterbook docs](https://jupyterbook.org/intro.html) not someone else's precedent.
 ```
