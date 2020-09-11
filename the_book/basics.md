@@ -1,6 +1,6 @@
 # Basic skills
 
-OCESE Logo ideas: 
+OCESE Logo ideas:
 
 ![logo](./images/logo-03sm.png)
 <- this .. or .. this ->

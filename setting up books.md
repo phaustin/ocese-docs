@@ -6,32 +6,32 @@ How to set up for bookmaking in Windows using Jupyter Book 2.0.
 
 The conda environment is provided as `environment_ocesewin.yml`. This environment is used for all testing by Github Actions and can be setup by:
 
-1. `conda env create -f environment_ocesewin.yml`
+`1. conda env create -f environment_ocesewin.yml`
 
 This should only need to be done once - I think?
 
-2. `conda activate ocesedocs_win`
+`2. conda activate ocesedocs_win`
 
 ## Building a Jupyter Book
 
 Run the following command in your terminal:
 
 ```bash
-jb build ocesedocs_win/
+jb build the_book/
 ```
 
 If you would like to work with a clean build, you can empty the build folder by running:
 
 ```bash
-jb clean ocesedocs_win/
+jb clean the_book/
 ```
 
-If jupyter execution is cached, this command will not delete the cached folder. 
+If jupyter execution is cached, this command will not delete the cached folder.
 
 To remove the build folder (including `cached` executables), you can run:
 
 ```bash
-jb clean --all ocesedocs_win/
+jb clean --all the_book/
 ```
 
 ## Publishing this Jupyter Book
@@ -40,5 +40,4 @@ jb clean --all ocesedocs_win/
 
 ## Notes
 
-This repository is used as a test case for [jupyter-book](https://github.com/executablebooks/jupyter-book) and 
-a `requirements.txt` file is provided to support this `CI` application.
+This repository is used as a test case for [jupyter-book](https://github.com/executablebooks/jupyter-book) and a `requirements.txt` file is provided to support this `CI` application.

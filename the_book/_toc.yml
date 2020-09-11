@@ -3,7 +3,7 @@
 - part: Foundations
   chapters:
   - file: basics
-    title: Basics Skills >>
+    title: Basic Skills >>
     sections:
       - file: markdown
   - file: git-etc
