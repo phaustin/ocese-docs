@@ -1,8 +1,0 @@
-# Book settings
-title: OCESE documentation
-author: F. Jones and others
-logo: images/logo-04smsm.png
-
-latex:
-  latex_documents:
-    targetname: book-tex.tex

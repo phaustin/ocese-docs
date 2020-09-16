@@ -17,13 +17,13 @@ This should only need to be done once - I think?
 Run the following command in your terminal:
 
 ```bash
-jb build the_book/
+jb build docs/
 ```
 
 If you would like to work with a clean build, you can empty the build folder by running:
 
 ```bash
-jb clean the_book/
+jb clean docs/
 ```
 
 If jupyter execution is cached, this command will not delete the cached folder.
@@ -31,7 +31,7 @@ If jupyter execution is cached, this command will not delete the cached folder.
 To remove the build folder (including `cached` executables), you can run:
 
 ```bash
-jb clean --all the_book/
+jb clean --all docs/
 ```
 
 ## Publishing this Jupyter Book
