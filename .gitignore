@@ -1,2 +1,2 @@
-the_book/_build/*
+docs/_build/*
 .ipynb_checkpoints
