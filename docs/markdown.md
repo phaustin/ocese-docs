@@ -1,4 +1,4 @@
-# Markdown for Jupyter books
+# Markdown
 
 This will include:
 

@@ -10,12 +10,16 @@
 
 - part: Documentation
   chapters:
-    - file: outline
-    - file: basics
+  - file: basics
     title: Basic Skills >>
     sections:
-      - file: markdown
-      - file: git-etc
+      - file: introduction
+      - file: commandline
+      - file: conda_environs
+      - file: git-intro
+      - file: git-workflows
+      - file: markdown      
   - file: tools
   - file: jupyter-etc
+  - file: jupyterbooks
   - file: python-etc

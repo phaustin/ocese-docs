@@ -1,6 +1,12 @@
-# Git and GitHub
+# Git Workflows
 
-Here we outline four levels of complexity.
+For an introduction to Git and version control, see the page [Git Intro](git-intro.html). This page outlines four levels of workflow complexity:
+1. Solo no branching workflow; the simplest use of GitHub as a repository for your own work only.
+2. Solo with branch and merge to manage your own development of features.
+3. Sharing but with no branching (not ideal).
+4. Fork & Pull Workflow.
+
+Details follow. 
 
 ## 1. Solo no branching workflow
 
@@ -35,7 +41,7 @@ No collaboration but use of branches to "contain" your own development of featur
 
 ## 3. Sharing but with no branching (not ideal)
 
-- Tutorial at NSF's [National Ecological Observatory Network](https://www.neonscience.org/git-setup-remote). This is part 7 from a succinct 7-part beginner's Git tutorial. See also "Pointers & References" below. 
+- Could be derived from the tutorial at NSF's [National Ecological Observatory Network](https://www.neonscience.org/git-setup-remote). This is part 7 from a succinct 7-part beginner's Git tutorial. See also "Pointers & References" below. 
 
 ---
 
@@ -47,10 +53,10 @@ Collaboration using a Fork from someone else's repository, develop in a branch, 
 - Clone to your local 
   - In your local folder under which the new repo should reside: `Git clone …URL…`
   - Track the original upstream version: `Git remote add upstream`
-  - (Verify the new remote with `git remote -v`)
+  - (Verify the new remote with `git remote -v` .)
 - At start of each editing session:
   - Bring upstream's branches (with edits) into the local repo.: `git fetch upstream`
-  - (View all branches, including those from upstream with `git branch -va`)
+  - (View all branches, including those from upstream with `git branch -va` .)
   - Checkout your master branch and merge with upstream's master: 
   
   ```bash
@@ -96,16 +102,5 @@ Collaboration using a Fork from someone else's repository, develop in a branch, 
 
 ## Pointers & References
 
-There are a great many open-source and commercial tutorials, how-to's and manuals including written pages, tutorials (with exercises, examples etc.), and videos. Here are some recommendations.
+See the end of the page [Git Intro](git-intro.html).
 
-||Description|Type|Comments|
-|---|---|---|---|
-|1|**[7-part intro. to Git](https://www.neonscience.org/version-control-git-series)** from NEON (National Ecological Observatory Network).|written tutorial website|Succinct, no extra words, includes objectives; very nice. Somewhat derived from Software Carpentry (next item). Includes updating repos via "remote".|
-|2|**[Software carpentry's resources](https://swcarpentry.github.io/git-novice/)** for their hands on workshops.|Well organized website|Includes a workshop schedule, pages for each section & exercises. A bit more wordy than NEON's introduction, but well designed and tested.|
-|3|**[Git manual](https://git-scm.com/doc)** and others, from Git.|Ref. manual; book; videos|Detailed documentation and the comprehensive Pro Git book. Four short videos are good introductions.|
-|4|**["Best practices" & Git cheat sheet](https://www.jrebel.com/system/files/git-cheat-sheet.pdf)**|PDF page|From a nice (although oldish, 2016) summary by _Rebellabs_ called [Git Cheat Sheet: Commands and Best Practices](https://www.jrebel.com/blog/git-cheat-sheet).|
-|5|**[GitHub Forking](https://gist.github.com/Chaser324/ce0505fbed06b947d962)**|MD page|"Fairly standard" procedure: Create a fork; Do your work; Issue a pull request; Merge back into the original project.|
-|6|**[LinkedIn Learning "courses"](https://linkedinlearning.ubc.ca)** for UBC faculty and staff|Video courses|Log in using your CWL and search for Git, or GitHub, etc. There are many, but at least they are not quite as random as the unfiltered internet.|
-
----
----

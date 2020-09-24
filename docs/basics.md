@@ -1,9 +1,3 @@
-# Basic skills
+# Sequence for basic docs.
 
-This section will include:
-
-- command line use
-- "environments"
-- Markdown
-- text editing
-- probably others.
+This "basics" documentation section.
