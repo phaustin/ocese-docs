@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This summarizes one approach to making Jupyter books using Jupyter Book 2.0 in Windows. Content is created in Markdown (and ipnb) files, and the book will be displayed online as HTML. The result will be a GitHub-based website looking like https://fhmjones.github.io/index.html. 
+This summarizes one approach to making Jupyter books using Jupyter Book 2.0 in Windows. Content is created in Markdown (and ipynb) files, and the book will be displayed online as HTML. The result will be a GitHub-based website looking like https://fhmjones.github.io/index.html. 
 
-**Note** that the "normal approach" to displaying websites in your GitHub account works fine (see [https://pages.github.com/](https://pages.github.com/)) but requires correct and complete HTML and related files (i.e. you would have to write in HTML). Furthermore, it does NOT work to simply generate a Jupyter book from your markdown, then transfer the resulting HTML to your `username.github.io/` repo.
+**Note** that displaying websites in your GitHub account using [github's "pages" approach](https://pages.github.com/) works fine, but requires correct and complete HTML and related files (i.e. you would have to write in HTML). Furthermore, it does NOT work to simply generate a Jupyter book from your markdown, then transfer the resulting HTML to your `username.github.io/` repo.
 
 ## 1. Setting up environments and working spaces
 

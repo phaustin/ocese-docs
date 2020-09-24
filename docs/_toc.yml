@@ -10,11 +10,12 @@
 
 - part: Documentation
   chapters:
-  - file: tools
-  - file: basics
+    - file: outline
+    - file: basics
     title: Basic Skills >>
     sections:
       - file: markdown
       - file: git-etc
+  - file: tools
   - file: jupyter-etc
   - file: python-etc
