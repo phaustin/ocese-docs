@@ -5,4 +5,6 @@ This website is about our ongoing project (2020 through 2023) to transform teach
 
 **Formal title:** Embedding Open-source Computational Tools into the Quantitative Earth Science Specializations
 
-**Project funding:** [The UBC Teaching and Learning Enhancement Fund](https://tlef.ubc.ca/funded-proposals/entry/714/), and internal support from the Department - EOAS. 
+**Project funding:** [The UBC Teaching and Learning Enhancement Fund](https://tlef.ubc.ca/funded-proposals/entry/714/), and internal support from the Department - EOAS.
+
+**Source:** [Repository with Markdown](https://github.com/fhmjones/ocese-docs) content that is converted to HTML by [Jupyter Books](https://jupyterbook.org/intro.html) and pushed for online display using [ghp-import](https://pypi.org/project/ghp-import/).

@@ -43,6 +43,8 @@ No collaboration but use of branches to "contain" your own development of featur
 
 - Could be derived from the tutorial at NSF's [National Ecological Observatory Network](https://www.neonscience.org/git-setup-remote). This is part 7 from a succinct 7-part beginner's Git tutorial. See also "Pointers & References" below. 
 
+NEED TO CHECK and integrate "[A Pull Request Workflow Tutorial](https://github.com/eoas-ubc/eoas_tlef/blob/master/docs/Git_workflow.md)". 
+
 ---
 
 ## 4. Fork & Pull Workflow
