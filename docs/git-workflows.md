@@ -1,4 +1,4 @@
-# Git Workflows
+# GitHub and Git Workflows
 
 For an introduction to Git and version control, see the page [Git Intro](git-intro.html). This page outlines four levels of workflow complexity:
 1. Solo no branching workflow; the simplest use of GitHub as a repository for your own work only.

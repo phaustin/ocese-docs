@@ -1,56 +1,54 @@
 # OCESE Project Outline
+This is the front page of an ongoing project to transform teaching in the [UBC Department of Earth, Ocean and Atmospheric Science](https://www.eoas.ubc.ca/) (EOAS) to use open source tools, particularly [Jupyter notebooks](https://www.jupyter.org/) organized as [executable books](https://executablebooks.org/en/latest/).
 
-## Goals
+**Formal title**: Embedding Open-source Computational Tools into the Quantitative Earth Science Specializations
 
-Using open source, cloud-based computing we aim to integrate computational and quantitative skills more comprehensively into the EOAS curriculum, incorporating real world examples and datasets into existing courses. New Jupyter notebook based modules and activities will be threaded throughout core courses in Geophysics, Atmospheric Sciences, Oceanography and Geological Engineering bridging traditional disciplinary boundaries. This proposed curriculum transformation will happen alongside a re-evaluation of quantitative EOAS course offerings across disciplines. The end result will reposition the UBC Earth Science specializations as opportunities for quantitative and computational learning in a highly interdisciplinary domain.
+## Project Goals
 
-## Organization
+Using open source, cloud-based computing we aim to integrate computational and quantitative skills more comprehensively and consitently across our Department's curriculum, incorporating real world examples and datasets into existing courses. New Jupyter notebook based modules and activities will be threaded throughout core courses in Geophysics, Atmospheric Sciences, Oceanography and Geological Engineering bridging traditional disciplinary boundaries. 
 
-During the summer of 2020, we will be working to:
+This proposed curriculum transformation will happen alongside a re-evaluation of quantitative EOAS course offerings across disciplines. The end result will reposition the UBC Earth Science specializations as opportunities for quantitative and computational learning in a highly interdisciplinary domain.
 
-1. Develop a set of tools to make it easier to transition existing courses
-   to the new executable notebook format
+## Progress
 
-2. Develop and release introductory material on Jupyter notebooks, python
-   and working with git
+During the summer of 2020 we have been working on:
 
-3. Transition our first courses into the new notebook/markdown framework
+1. Developing a set of tools to make it easier to transition existing courses to the new executable notebook format.
+
+2. Developing and releasing introductory and tutorial material on Jupyter notebooks, python and working with git.
+
+3. Transitioning our first courses into the new notebook/markdown framework.
+
+4. Establishing scalable cloud-based and container-deployed computing capabilities so that students in courses that use computing-intensive Notebooks have reliable any-time access to these learning resources.
 
 Work underway is tracked on our [project board](https://github.com/eoas-ubc/eoas_tlef/projects/2)
 
-
 ## Project links
 
-- [Scipy 2020 BOF slides](https://eoas-ubc.github.io/scipy/scipy_bof_slides.slides.html)
-
-- [OCESE proposal](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/ocese_proposal_2019.pdf)
-
-- [3 year schedule](https://eoas-ubc.github.io/pdffiles/project_timeline.pdf)
-
-- [project board](https://github.com/eoas-ubc/eoas_tlef/projects/2)
-
+* [OCESE proposal](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/ocese_proposal_2019.pdf)
+* [3 year schedule](https://eoas-ubc.github.io/pdffiles/project_timeline.pdf) as of July 2020 (priorities and deliverable scheduling is evolving as personnel, resources and COVID-19 evolve).
+* [project board](https://github.com/eoas-ubc/eoas_tlef/projects/2)
+* for presentations and other contributions see {ref}`Project Outcomes`.
 
 ## Data science links
 
-- [Sep. 2019 Data Science Report](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/Data_Science_Report_Sept2019.pdf)
+* [Sep. 2019 Data Science Report](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/Data_Science_Report_Sept2019.pdf)
 
-- [DSCI 100 report](https://ubc-dsci.github.io/dsci-100-a-report/dsci-100-a-report.html#1)
+* [DSCI 100 report](https://ubc-dsci.github.io/dsci-100-a-report/dsci-100-a-report.html#1)
 
+* [Data Science Minor TLEF](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/dsci_minor.pdf)
 
-- [Data Science Minor TLEF](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/dsci_minor.pdf)
+* [Microbiology-bioinformatics TLEF](https://tlef.ubc.ca/funded-proposals/entry/15/)
 
-- [Microbiology-bioinformatics TLEF](https://tlef.ubc.ca/funded-proposals/entry/15/)
+* [TLEF synergies](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/tlef_synergies.pdf)
 
-- [TLEF synergies](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/tlef_synergies.pdf)
+* [DSCI 100 repository](https://github.com/UBC-DSCI)
 
-- [DSCI 100 repository](https://github.com/UBC-DSCI)
+* [STAT 201 repository](https://github.com/UBC-DSCI/stat-201)
 
-- [STAT 201 repository](https://github.com/UBC-DSCI/stat-201)
+* [Pangeo education/training](https://discourse.pangeo.io/t/poets-core-pangeo-education-needs-you/355)
 
-- [Pangeo education/training](https://discourse.pangeo.io/t/poets-core-pangeo-education-needs-you/355)
-
-- [strategic planning pdf](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/strategic_planning.pdf)
-
+* [strategic planning pdf](https://github.com/eoas-ubc/eoas-ubc.github.io/blob/docs/pdffiles/strategic_planning.pdf)
 
 ## Links to work in progress
 
@@ -60,4 +58,4 @@ Work underway is tracked on our [project board](https://github.com/eoas-ubc/eoas
 
 * {ref}`course-materials`
 
-* {ref}`tools`
+* {ref}`tools for course developmnet`
