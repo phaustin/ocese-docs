@@ -105,7 +105,7 @@ Publish to your own `username.github.io` repo so it can be checked by you or oth
 
 3. The folder with all HTML and associated materials (images, CSS, etc.) that was generated using `jb build` must be copied complete and intact from the documentation development repo's `_build` folder to an identical folder in the website display repo, `username.github.io`.
 
-4. Then it can all be send to `username.github.io` using
+4. Then it can all be send to `username.github.io` using the following. Do this on the command line from the "root" of this repo. 
 
    ```bash
    ghp-import -f --no-jekyll -p -b master docs/_build/html -r upstream
