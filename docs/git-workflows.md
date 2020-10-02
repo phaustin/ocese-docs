@@ -54,51 +54,44 @@ Collaboration using a Fork from someone else's repository, develop in a branch, 
 1. Fork to your own repository
 2. Clone to your local 
    1. In your local folder under which the new repo should reside: `Git clone …URL…`
-   1. Track the original upstream version: `Git remote add upstream`
-   1. (Verify the new remote with `git remote -v` .)
+   2. Track the original upstream version: `Git remote add upstream`
+   3. (Verify the new remote with `git remote -v` .)
 3. At start of each editing session:
    1. Bring upstream's branches (with edits) into the local repo.: `git fetch upstream`
-   1. (View all branches, including those from upstream with `git branch -va` .)
-   1. Checkout your master branch and merge with upstream's master: 
+   2. (View all branches, including those from upstream with `git branch -va` .)
+   3. Checkout your master branch and merge with upstream's master: 
   
       ```bash
       git checkout master
       git merge upstream/master
       ```
 
-   1. To create a new branch and start working on it, first checkout the master branch (the new branch should come from master): `git checkout master`
-   1. Create a new branch `git branch newfeature`
-4. Continue editing on this branch.
-5. Fetch upstream and merge that master with your master
+   4. If there were any new commits on upstream's master, rebase your work branch:
 
-   ```bash
-   git fetch upstream
-   git checkout master
-   git merge upstream/master
-   ```
+      ```bash
+      git checkout newfeature
+      git rebase master
+      ```
 
-6. If there were any new commits on upstream's master, rebase your work branch:
+      This means "rebase the _newfeature_ branch onto the _master_ branch."
+      - **Golden rule of git rebase**: never use it on public branches. For example never, never do `git checkout master` then `git rebase newfeature`. From [this reference](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing).
 
-   ```bash
-   git checkout newfeature
-   git rebase master
-   ```
-
-7. This means "rebase the _newfeature_ branch onto the _master_ branch."
-   - **Golden rule of git rebase**: never use it on public branches. For example never, never do `git checkout master` then `git rebase newfeature`. From [this reference](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing).
-   - OR, IF desired, clear up by squashing (some) smaller commits down into larger commits using interactive rebase:
+   5. OR, IF desired, at the same time as rebasing, clear up by squashing (some) smaller commits down into larger commits using interactive rebase:
 
       ```bash
       git checkout newfeature
       git rebase -i master
       ```
 
-8. Push to your GitHub repo and ask to merge with original 
+4. Do all editing on a branch, not `master`. Either `git checkout newfeature` or create a new branch by first checking out the master branch (the new branch should come from master) then create a new branch; `git checkout master` then `git branch newfeature`.
+
+5. When ready, push to your GitHub repo and ask to merge with original 
    1. Send to your repo: `git push`
    1. Ask to contribute your work to owner of upstream.
-      - At your GitHub repo select the development branch! 
-      - Click "pull request". 
-9. (NOTE: Subsequent changes to that branch will be tracked until pull request is accepted or rejected. )
+      - _NOTE: At your GitHub repo be sure to select your development branch (eg. `newbranch`)!_ 
+      - Click **pull request**. 
+
+   (NOTE: Subsequent changes to that branch will be tracked until pull request is accepted or rejected. )
 
 ---
 
