@@ -18,6 +18,7 @@
       - file: git-intro
       - file: git-workflows
       - file: markdown
+      - file: bestpractices
       - file: troubleshooting
   - file: tools
   - file: jupyter-etc
