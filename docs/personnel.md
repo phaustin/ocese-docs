@@ -9,8 +9,10 @@
 ### Current Students
 
 - Andrew Loeppky ([AL on GitHub](https://github.com/AndrewLoeppky))
-- Benjamin Chang
-- Danil Platonov
+- Benjamin Chang ([BC on GitHub](https://github.com/bkchang-97))
+- Danil Platonov 
+- Hariharan Umashankar ([HU on GitHub](https://github.com/hari-ushankar) or [researchgate](https://www.researchgate.net/profile/Hariharan_Umashankar))
+- Chris Rodell ([CR on GitHub](https://github.com/cerodell))
 
 ### Project alumni
 

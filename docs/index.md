@@ -1,7 +1,7 @@
 
 # OCESE - Open-source Computing for Earth Science Education
 
-This website is about our ongoing project (2020 through 2023) to transform teaching in the [UBC Department of Earth, Ocean and Atmospheric Science](https://www.eoas.ubc.ca) (EOAS) to use open source tools, particularly [Jupyter notebooks](https://www.jupyter.org) organized as [executable books](https://executablebooks.org/en/latest/)
+This website is about our ongoing project (2020 through 2023) to transform teaching in the [UBC Department of Earth, Ocean and Atmospheric Science](https://www.eoas.ubc.ca) (EOAS) to use open source tools, particularly [Jupyter notebooks](https://www.jupyter.org) organized as [executable books](https://executablebooks.org/en/latest/). Two sections are "PROJECT COMPONENTS" describing the project and its deliverables and "DOCUMENTATION", materials to help contributors, instructors and students carry out development or deployment tasks.
 
 **Formal title:** Embedding Open-source Computational Tools into the Quantitative Earth Science Specializations
 
